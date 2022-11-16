@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="login.php" method="post">
+        <fieldset>
+            <legend>Registrasi</legend>
+            <p>
+                <label>Nama:</label>
+                <input type="text" placeholder="Nama" name="Nama">
+            </p>
+            <p>
+                <label>Username:</label>
+                <input type="text" name="Username..." placeholder="Username...">
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Email..."/>
+            </p>
+            <p>
+                <label>Password:</label>
+                <input type="Password" name="password" placeholder="Password...">
+            </p>
+            <p>
+                <label>Jenis Kelamin:</label>
+                <label><input type="radio" name="jenis kelamin " value="laki-laki" />Laki-laki</label>
+                <label><input type="radio" name="jenis kelamin " value="Perempuan" />Perempuan</label>
+            </p>
+            <p>
+                <label>Agama:</label>
+                <select name="agama">
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="hindu">Hindu</option>
+                </select>
+                <p>
+                    <label>Tanggal Lahir:</label>
+                    <input type="date" name="tanggal">
+                </p>
+                <p>
+                    <label>Umur:</label>
+                    <input type="number" min="10" max="90" name="umur">
+                </p>
+                <p>
+                    <label>Hobi:</label>
+                    <label><input type="checkbox" name="hobi" value="bola">Futsal</label>
+                    <label><input type="checkbox" name="hobi" value="basket">Basket</label>
+                    <label><input type="checkbox" name="hobi" value="badminton">Badminton</label>
+                </p>
+                <p>
+                    <label>Foto:</label>
+                    <input type="file" name="foto">
+                </p>
+                <p>
+                    <label>Biografi:</label>
+                    <textarea name="biografi"></textarea>
+                </p>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Daftar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

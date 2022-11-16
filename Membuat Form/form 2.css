@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(102, 255, 245);
+}
+input[type=text] {
+    background: none;
+    color: aqua;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.name {
+    font-family: 'Roboto',sans-serif;
+    color: black;
+}
+.titik {
+    color: black;
+}
+input[type=submit]:hover {
+    color: white;
+}

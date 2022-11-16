@@ -1,0 +1,44 @@
+* {
+    border: 2px solid grey;
+}
+
+.text-green {
+    color: gray;
+    justify-content: center;
+    color: white;
+    background: teal;
+    padding: 10px;
+    height: 100px;
+    font-weight: 500;
+}
+.text-green ~ p {
+    color: red;
+}
+
+input[type=text] {
+    background-color: black;
+    color: white;
+    border: 2px solid cyan;
+    padding: 10px;
+}
+p:hover {
+    color: white !important; 
+}
+
+/* CSS jarak  */
+
+/*
+padding = jarak dalam
+margin = jarak luar 
+ */
+ .box {
+    /* margin keseluruhan atas,bwah,kanan,kiri */
+    margin: 20px;
+    /* 10px atas dan bwah 20px kanan dan kiri */
+    margin: 10px 20px;
+    /* 10px atas, 20px kanan, 30px bawah, 40px kiri */
+    margin: 10px 20px 30px 40px;
+    /* membuat suatu berada di tengah tapi dengan syarat 
+    harus sudah tersedia hight dan widht sebelumnya */
+    margin: auto;
+ }

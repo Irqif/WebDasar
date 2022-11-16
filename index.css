@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand' , sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+header {
+    display: inline;
+}
+main{
+    padding: 20px;
+    overflow: auto;
+}
+nav a {
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px;
+
+}
+nav a:hover {
+    font-weight: bold;
+    color: black;
+}
+.jumbotron {
+    padding: 60px;
+    background-color: rgb(129, 232, 255);
+    text-align: center;
+    font-size: 2px;
+    color: white;
+    font-size: larger;
+}
+nav {
+    background-color: rgb(67, 160, 181);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+#content {
+    float: left;
+    width: 75%;
+}
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+h2,h3 {
+    color: rgb(96, 195, 223);
+}
+.profile header {
+    text-align: center;
+}
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+ }
+ .profile img{
+    width: 200px;
+ }
+ .card {
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 10px;
+ }
+footer {
+    padding: 10px;
+    color: white;
+    background-color: rgb(134, 202, 245);
+    text-align: center;
+    font-weight: 600;
+}
+/* if else di css, jika kurang dari 1000px jalankan #content dan aside jika lebih dari 1000px #content dan aside tidak di jalankan */
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+} 
